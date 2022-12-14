@@ -2,9 +2,13 @@
 public class VarEx2 {
 
 	public static void main(String[] args) {
-		final int score; //상수 초기화와 할당을 분리
-		score = 200;
-		System.out.println(score);
+		int x=4,y=10;
+		int tmp;
+		tmp = x;
+		x = y;
+		y = tmp;
+		System.out.println("x" + x);
+		System.out.println("y"+ y);
 	}
 
 }
